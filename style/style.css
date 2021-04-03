@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(../img/logo.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.navigation-item {
+    padding: 2%;
+}
+
+.navigation-item a {
+    font-size: 1.5rem;
+    content: '';
+    display: block;
+    color: blanchedalmond;
+    border-bottom: 3px solid rgb(108, 214, 149);
+    text-decoration: none;
+    transition: 0.2s linear;
+    width: 0%;
+}
+
+.navigation-item a:hover {
+    width: 100%;
+    display: block;
+    border-bottom: 3px solid rgb(108, 214, 149);
+}
+
+.logo {
+    max-width: 500px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+}
+
+.main {
+    color: white;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.main p {
+    font-size: larger;
+}
+
+.main--heading {
+    font-size: 200%;
+    margin-bottom: 2em;
+}
+
+.button {
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(80, 78, 78);
+    text-decoration: none;
+    background-color: rgb(186, 204, 198);
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    border-radius: 10000px;
+    transition: all 2s;
+}
+
+.button:hover {
+    background-color: rgb(144, 177, 144);
+    transition: background-color 2s;
+    color: bisque
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    background: linear-gradient( rgba(224, 217, 217, 0.4), rgba(0, 0, 0, 0.7));
+    padding: 1%;
+    margin: 2%;
+    border-radius: 10px;
+    flex-basis: 20%;
+}
+
+@media (max-width: 720px) {
+    .flex-item {
+        flex: 1 40%
+    }
+    .navigation-item {
+        flex: 70%;
+        align-items: center;
+        display: block;
+        max-width: 100%
+    }
+}
+
+.flex-item img {
+    max-width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1%
+}
+
+.flex-item h3 {
+    font-size: 120%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid greenyellow;
+}
+
+.flex-item h4 {
+    font-size: smaller;
+    margin: 10px 0px 10px;
+}
+
+.flex-item p {
+    font-size: small;
+    margin-top: 10px;
+}
+
+.flex-container-about {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container-about img {
+    width: 50%;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.flex-container-about-story {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-container-about-story h1 {
+    border-bottom: 2px solid greenyellow;
+    margin-bottom: 2%;
+}
+
+.flex-container-about-story p {
+    border-bottom: 2px solid greenyellow;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.flex-container-about-story cite {
+    padding: 2%;
+    text-align: right;
+}
+
+.flex-container-about-story cite {
+    justify-content: flex-end;
+}
+
+.flex-container-form {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-form form {
+    border-radius: 20px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.impressum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.impressum p {
+    margin-bottom: 1%;
+    padding: 0% 15%;
+}
+
+footer {
+    background: linear-gradient(rgba(171, 255, 46, 0.7), rgba(171, 255, 46, 0.4));
+    margin-top: 10%;
+    padding: 2%;
+    color: honeydew;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.media-container-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.media-container-item p {
+    font-size: smaller;
+}
+
+.media-container-item a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-size: medium;
+    color: honeydew;
+    transition: color 0.6s, background-color 0.6s;
+    border-radius: 10px;
+}
+
+.media-container-item a:hover {
+    background-color: rgb(182, 221, 103);
+    padding: 5px;
+    font-size: medium;
+    color: rgba(250, 248, 135, 0.863);
+    border-radius: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=text]:focus, textarea:focus {
+    background-color: rgba(199, 199, 199, 1);
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    background-color: rgb(18, 194, 18);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    background-color: greenyellow;
+    color: rgb(251, 255, 4);
+}
+
+.flex-container-contact {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.flex-container-contact h1 {
+    color: greenyellow;
+}
+
+.flex-container-contact a {
+    padding: 2%;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    transition: color 0.6s;
+    
+}
+
+.flex-container-contact a:hover {
+    color: yellowgreen;
+
+}
+
+#button {
+    display: inline-block;
+    background-color: rgb(230, 28, 55);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 1% 0;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: show;
+    z-index: 1000;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: show;
+}

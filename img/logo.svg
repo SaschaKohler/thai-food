@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250"
+   height="150"
+   viewBox="0 0 66.145832 39.687501"
+   version="1.1"
+   id="svg16"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs10">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient931">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop927" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop929" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient921">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop917" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop919" />
+    </linearGradient>
+    <rect
+       x="-16.047708"
+       y="-12.367041"
+       width="94.813982"
+       height="57.860086"
+       id="rect905" />
+    <rect
+       x="-7.9502408"
+       y="-2.7973069"
+       width="85.391475"
+       height="26.206349"
+       id="rect899" />
+    <rect
+       x="0.44168004"
+       y="17.667202"
+       width="70.816033"
+       height="22.525682"
+       id="rect881" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 19.84375 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="66.145832 : 19.84375 : 1"
+       inkscape:persp3d-origin="33.072916 : 13.229167 : 1"
+       id="perspective40" />
+    <rect
+       x="18.108882"
+       y="17.078295"
+       width="54.621099"
+       height="31.94819"
+       id="rect36" />
+    <rect
+       x="3.238987"
+       y="3.0917603"
+       width="61.246299"
+       height="14.722669"
+       id="rect20" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient921"
+       id="radialGradient925"
+       cx="19.425901"
+       cy="9.3021851"
+       fx="19.425901"
+       fy="9.3021851"
+       r="19.980137"
+       gradientTransform="matrix(1,0,0,0.29464102,0,6.5613795)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient931"
+       id="linearGradient933"
+       x1="18.035806"
+       y1="26.471429"
+       x2="65.040594"
+       y2="26.471429"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.7971154"
+     inkscape:cx="120.38379"
+     inkscape:cy="54.349934"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1267"
+     inkscape:window-height="1041"
+     inkscape:window-x="1946"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text18"
+       style="font-size:16.9333px;line-height:1.25;font-family:Constantia;-inkscape-font-specification:Constantia;white-space:pre;shape-inside:url(#rect20);"><tspan
+         style="visibility:hidden"
+         x="3.2382812"
+         y="32.647627"><tspan
+           dx="0 4.7074666 6.1129203 5.6472683 2.3537331 2.3537331 4.7074661 4.7074661 4.7074661"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:HelvLight;-inkscape-font-specification:HelvLight">THAI 2020</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text34"
+       style="font-size:16.9333px;line-height:1.25;font-family:Constantia;-inkscape-font-specification:Constantia;white-space:pre;shape-inside:url(#rect36);fill:#d35f5f;"
+       transform="matrix(1.2930721,0,0,1.8939663,1.5899057,-23.566869)" />
+    <text
+       xml:space="preserve"
+       id="text879"
+       style="line-height:1.25;font-family:Constantia;font-size:16.93333333px;-inkscape-font-specification:Constantia;white-space:pre;shape-inside:url(#rect881);" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.9333px;line-height:1.25;font-family:Constantia;-inkscape-font-specification:Constantia;stroke-width:0.264583"
+       x="19.139469"
+       y="29.592564"
+       id="text887"><tspan
+         sodipodi:role="line"
+         x="19.139469"
+         y="29.592564"
+         style="stroke-width:0.264583"
+         id="tspan889" /></text>
+    <text
+       xml:space="preserve"
+       id="text897"
+       style="line-height:1.25;font-family:Constantia;font-size:16.93333333px;-inkscape-font-specification:Constantia;white-space:pre;shape-inside:url(#rect899);" />
+    <text
+       xml:space="preserve"
+       id="text903"
+       style="line-height:1.25;font-family:Constantia;font-size:16.93333333px;-inkscape-font-specification:Constantia;white-space:pre;shape-inside:url(#rect905);" />
+    <text
+       xml:space="preserve"
+       style="font-size:16.9333px;line-height:1.25;font-family:Constantia;-inkscape-font-specification:Constantia;fill:url(#radialGradient925);fill-opacity:1;stroke-width:0.264583"
+       x="-0.73613381"
+       y="15.164348"
+       id="text911"><tspan
+         sodipodi:role="line"
+         id="tspan909"
+         x="-0.73613381"
+         y="15.164348"
+         style="fill:#008000;fill-opacity:1;stroke-width:0.264583">THAI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.9333px;line-height:1.25;font-family:Constantia;-inkscape-font-specification:Constantia;fill:url(#linearGradient933);fill-opacity:1;stroke-width:0.264583"
+       x="17.225521"
+       y="32.242641"
+       id="text915"><tspan
+         sodipodi:role="line"
+         id="tspan913"
+         x="17.225521"
+         y="32.242641"
+         style="fill:#009b00;fill-opacity:1;stroke-width:0.264583">FOOD</tspan></text>
+  </g>
+</svg>

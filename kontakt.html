@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt & Bestellung</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <a id="button"></a>
+    <nav class="navigation">
+        <ul>
+            <li class="navigation-item"><a href="index.html">Home</a></li>
+            <li class="navigation-item"><a href="about.html">About</a></li>
+            <li class="navigation-item"><a href="impressum.html">Impressum/DSGVO</a></li>
+            <li class="navigation-item"><a href="food.html">Speisen</a></li>
+            <li class="navigation-item"><a href="kontakt.html">Kontakt/Bestellung</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <img src="img/logo.svg" alt="" class="logo">
+    </header>
+    <main class="main">
+        <h1 class="main--heading">Erleben Sie Thai-Küche</h1>
+        <div class="flex-container-contact">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=linz%20tabak%20fabrik&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://embedgooglemap.net/maps/62"></a><br>
+                 
+                </div>
+            </div>
+
+            <div class="flex-container-form">
+                <form action="thankyou.html">
+
+                    <input type="text" id="fname" name="firstname" placeholder="Dein Name...">
+
+                    <input type="text" id="lname" name="lastname" placeholder="Deine Email...">
+                    <select name="stuuff" id="order">
+                        <option value="-----" selected="yes">Ihre Bestellung</option>
+                        <option value="Curry-Bällchen mit Kokus">Curry-Bällchen mit Kokus   7,90€</option>
+                        <option value="Huhn in Curry mit Bambus">Huhn in Curry mit Bambus    8,90€</option>
+                        <option value="auCurry-Cashew mit Soja Sprossen">Curry-Cashew mit Soja Sprossen    6,40€</option>
+                        <option value="Bungo Moeng">Bungo Moeng    6,90€</option>
+                        <option value="Schwein Tom Yam">Schwein Tom Yam    7.90€</option>
+                        <option value="Curry Kokos Tofu">Curry Kokos Tofu    6,90€</option> 
+                        <option value="Was auch immer für leckers Zeug">Was auch immer für leckers Zeug     5,90€</option>
+                        <option value="Curry-Rot richtig scharf">Curry-Rot richtig scharf     5,90€</option>
+                      
+                      </select>
+
+                    <textarea id="subject" name="subject" placeholder="Ergänzung zur Bestellung ..." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+    </main>
+  <!-- JavaScript Libraries -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/button.js"></script>
+</body>
+
+</html>
